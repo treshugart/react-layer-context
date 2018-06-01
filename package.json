@@ -1,0 +1,29 @@
+{
+  "name": "react-layer-context",
+  "version": "0.0.0",
+  "description": "Manage layers via portals and context.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/module/index.js",
+  "scripts": {
+    "prepublish": "zeropack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treshugart/react-layer-context.git"
+  },
+  "author": "Trey Shugart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treshugart/react-layer-context/issues"
+  },
+  "homepage": "https://github.com/treshugart/react-layer-context#readme",
+  "devDependencies": {
+    "flow-bin": "^0.73.0",
+    "jest": "^23.1.0",
+    "prettier": "^1.13.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "zeropack": "^0.4.1"
+  }
+}
