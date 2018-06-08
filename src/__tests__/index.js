@@ -2,7 +2,9 @@
 
 import Layer, { Consumer, Manager, Provider } from "..";
 
-test("Layer", () => {});
+test("Layer", () => {
+  expect(typeof Layer).toBe("function");
+});
 
 test("Consumer", () => {});
 
