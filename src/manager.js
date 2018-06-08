@@ -20,7 +20,9 @@ export default class extends Component<Props, State> {
   static defaultProps = {
     zIndex: 1000
   };
-  state = {};
+  state = {
+    portalRef: null
+  };
   setPortalRef = (portalRef: PortalRef) => {
     this.setState({ portalRef });
   };
@@ -30,7 +32,7 @@ export default class extends Component<Props, State> {
       state: { portalRef }
     } = this;
     return (
-      <div style={{ zIndex: zIndex }}>
+      <div style={{ zIndex }}>
         <div ref={this.setPortalRef} />
         <Provider value={portalRef}>{children}</Provider>
       </div>

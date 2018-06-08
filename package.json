@@ -4,6 +4,7 @@
   "description": "Manage layers via portals and context.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "browser": "dist/umd/index.js",
   "files": [
     "dist"
   ],
@@ -27,6 +28,6 @@
     "prettier": "^1.13.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "zeropack": "^0.4.1"
+    "zeropack": "^0.4.2"
   }
 }
