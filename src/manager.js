@@ -32,8 +32,8 @@ export default class extends Component<Props, State> {
       state: { portalRef }
     } = this;
     return (
-      <div style={{ zIndex }}>
-        <div ref={this.setPortalRef} />
+      <div>
+        <div ref={this.setPortalRef} style={{ zIndex }} />
         <Provider value={portalRef}>{children}</Provider>
       </div>
     );
