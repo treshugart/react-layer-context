@@ -4,6 +4,7 @@
   "description": "Manage layers via portals and context.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "files": ["dist"],
   "scripts": {
     "prepublish": "zeropack",
     "test": "jest"
