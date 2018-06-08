@@ -20,6 +20,7 @@ export default class extends Component<Props, State> {
   static defaultProps = {
     zIndex: 1000
   };
+  state = {};
   setPortalRef = (portalRef: PortalRef) => {
     this.setState({ portalRef });
   };
