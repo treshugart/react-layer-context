@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Manage layers via portals and context.",
   "main": "dist/cjs/index.js",
-  "module": "dist/module/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "prepublish": "zeropack",
     "test": "jest"
