@@ -27,6 +27,7 @@
     "prettier": "^1.13.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-test-renderer": "^16.4.1",
     "zeropack": "^0.4.2"
   }
 }

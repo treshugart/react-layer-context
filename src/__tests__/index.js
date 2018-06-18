@@ -1,13 +1,10 @@
 // @flow
 
-import Layer, { Consumer, Manager, Provider } from "..";
+import { Consumer, Layer, Manager, Provider } from "..";
 
-test("Layer", () => {
+test("exports", () => {
+  expect(typeof Consumer).toBe("object");
   expect(typeof Layer).toBe("function");
+  expect(typeof Manager).toBe("function");
+  expect(typeof Provider).toBe("object");
 });
-
-test("Consumer", () => {});
-
-test("Manager", () => {});
-
-test("Provider", () => {});
