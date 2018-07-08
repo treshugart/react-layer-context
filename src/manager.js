@@ -1,14 +1,13 @@
 // @flow
 
-import type { Node } from "react";
 import type { PortalRef } from "./types";
 
-import React, { Component } from "react";
+import * as React from "react";
 import { createPortal } from "react-dom";
 import { Provider } from "./context";
 
 type Props = {
-  children: Node,
+  children: React.Node,
   zIndex: number
 };
 
@@ -16,7 +15,7 @@ type State = {
   portalRef: PortalRef
 };
 
-export default class extends Component<Props, State> {
+export class Manager extends React.Component<Props, State> {
   static defaultProps = {
     zIndex: 1000
   };

@@ -2,7 +2,7 @@
 
 import React from "react";
 import renderer from "react-test-renderer";
-import { Consumer, Provider } from "../context";
+import { Consumer, Provider } from "../";
 
 const render = v => renderer.create(v).toJSON();
 

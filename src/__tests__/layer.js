@@ -1,6 +1,6 @@
 // @flow
 
-import Layer from "../layer";
+import { Layer } from "../";
 
 test("Layer", () => {
   expect(typeof Layer).toBe("function");

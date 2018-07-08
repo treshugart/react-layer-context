@@ -1,6 +1,6 @@
 // @flow
 
-import { Consumer, Layer, Manager, Provider } from "..";
+import { Consumer, Layer, Manager, Provider } from "../";
 
 test("exports", () => {
   expect(typeof Consumer).toBe("object");
